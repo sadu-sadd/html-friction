@@ -1,1 +1,3 @@
-- 
+- Removing the / from closing \<p\> tag browser created on its own
+- If we change closing tag order the browser behaves differntly by creating its own closing tags
+- \<br\> and \</br\> both are rendered as \<br\> in Devtools
