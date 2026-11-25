@@ -1,0 +1,43 @@
+body {
+  margin: 24px;
+}
+
+.copy {
+  max-width: 40rem;
+  line-height: 1.5;
+}
+
+.label {
+  margin: 28px 0 8px;
+}
+
+.a,
+.b {
+  width: 150px;
+  padding: 20px;
+  margin: 20px;
+  background: #f3d36b;
+  outline: 2px solid red;
+}
+
+.a {
+  display: inline;
+}
+
+.b {
+  display: inline-block;
+}
+
+.frame {
+  border: 2px solid #222;
+  width: max-content;
+}
+
+.frame img {
+  width: 220px;
+  height: auto;
+}
+
+.frame.fixed img {
+  display: block;
+}
